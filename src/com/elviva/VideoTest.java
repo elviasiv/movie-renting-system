@@ -87,5 +87,23 @@ public class VideoTest {
         assertTrue(empireStrikesBack.isAvailable());
     }
 
+    //tests remove video from stock should be unavailable
+//	@org.junit.Test
+//	public void testRemoveFromStock() throws VideoException{
+//		Video empireStrikesBack = new Video("The Empire Strikes Back", 1980);
+//		empireStrikesBack.removeFromStock();
+//		assertTrue(empireStrikesBack.isNotAvailable());
+//	}
 
+    //tests the video creation functionality
+//    @org.junit.Test
+//    public void testDuplicateTitle(){
+//        try  {
+//            Video newVideo = new Video("E.T.", 1988);
+//            fail();
+//        }
+//        catch (VideoException videoException){
+//            //Expected
+//        }
+//    }
 }
